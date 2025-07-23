@@ -24,3 +24,28 @@
 {"level":"info","message":"Clicked element: #btnSubmitPassword","timestamp":"2025-07-23T11:48:29.994Z"}
 {"level":"info","message":"Login process completed successfully","timestamp":"2025-07-23T11:48:29.995Z"}
 {"error":"page.screenshot: Target page, context or browser has been closed","level":"error","message":"Failed to take screenshot: error_h2_title","timestamp":"2025-07-23T11:48:40.090Z"}
+{"level":"info","message":"Navigating to login page","timestamp":"2025-07-23T13:22:05.755Z"}
+{"level":"info","message":"Page loaded with state: networkidle","timestamp":"2025-07-23T13:22:07.693Z"}
+{"level":"info","message":"Successfully navigated to login page","timestamp":"2025-07-23T13:22:07.695Z"}
+{"level":"info","message":"Starting login process","timestamp":"2025-07-23T13:22:07.697Z"}
+{"level":"info","message":"Navigating to login page","timestamp":"2025-07-23T13:22:07.698Z"}
+{"level":"info","message":"Page loaded with state: networkidle","timestamp":"2025-07-23T13:22:09.343Z"}
+{"level":"info","message":"Successfully navigated to login page","timestamp":"2025-07-23T13:22:09.344Z"}
+{"level":"info","message":"Clicking email login option","timestamp":"2025-07-23T13:22:09.345Z"}
+{"level":"info","message":"Element found: #btnLoginWithEmail","timestamp":"2025-07-23T13:22:10.419Z"}
+{"level":"info","message":"Clicked element: #btnLoginWithEmail","timestamp":"2025-07-23T13:22:10.567Z"}
+{"level":"info","message":"Entering email","timestamp":"2025-07-23T13:22:10.573Z"}
+{"level":"info","message":"Element found: #txtEmail","timestamp":"2025-07-23T13:22:10.587Z"}
+{"level":"info","message":"Typed text into element: #txtEmail","timestamp":"2025-07-23T13:22:10.611Z"}
+{"level":"info","message":"Clicking initial login button","timestamp":"2025-07-23T13:22:10.611Z"}
+{"level":"info","message":"Element found: button[aria-labelledby=\"login or register\"]","timestamp":"2025-07-23T13:22:10.635Z"}
+{"level":"info","message":"Clicked element: button[aria-labelledby=\"login or register\"]","timestamp":"2025-07-23T13:22:10.785Z"}
+{"level":"info","message":"Waiting for welcome message","timestamp":"2025-07-23T13:22:10.785Z"}
+{"level":"info","message":"Element found: h1.title-primary","timestamp":"2025-07-23T13:22:10.797Z"}
+{"level":"info","message":"Entering password","timestamp":"2025-07-23T13:22:10.797Z"}
+{"level":"info","message":"Element found: #txtPassword","timestamp":"2025-07-23T13:22:11.023Z"}
+{"level":"info","message":"Typed text into element: #txtPassword","timestamp":"2025-07-23T13:22:11.040Z"}
+{"level":"info","message":"Clicking submit button","timestamp":"2025-07-23T13:22:11.041Z"}
+{"level":"info","message":"Element found: #btnSubmitPassword","timestamp":"2025-07-23T13:22:11.052Z"}
+{"level":"info","message":"Clicked element: #btnSubmitPassword","timestamp":"2025-07-23T13:22:11.164Z"}
+{"level":"info","message":"Login process completed successfully","timestamp":"2025-07-23T13:22:11.165Z"}

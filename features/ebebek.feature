@@ -1,13 +1,14 @@
 Feature: E-bebek Website Automation
 
-  Scenario: User can login, search product, add to basket and logout
-    Given I am on the e-bebek homepage
-    When I click on the login button
-    And I enter valid credentials
-    Then I should be logged in successfully
-    When I search for "biberon"
-    Then I should see search results
-    When I select the first product
-    And I add the product to basket
-    Then the product should be added successfully
-    When I logout from the website
+  Scenario: Kullanıcının giriş yapması, ürün araması, sepete eklemesi ve çıkış yapması
+    Given kullanıcı e-bebek ana sayfasını açar
+    When giriş yap butonuna tıklar
+    And geçerli kullanıcı bilgilerini girer
+    Then giriş işleminin başarılı olduğu doğrulanır
+    When "biberon" kelimesiyle ürün aranır
+    Then arama sonuçları görüntülenir
+    When ilk ürün seçilir
+    And ürün sepete eklenir
+    Then ürünün sepete eklendiği doğrulanır
+    When kullanıcı çıkış yapar
+    Then çıkış işleminin başarılı olduğu doğrulanır
