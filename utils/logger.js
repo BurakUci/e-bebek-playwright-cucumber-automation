@@ -7,8 +7,18 @@ const logger = winston.createLogger({
         winston.format.json()
     ),
     transports: [
-        new winston.transports.File({ filename: 'logs/error.log', level: 'error' }),
-        new winston.transports.File({ filename: 'logs/combined.log' }),
+        // Hatalar sadece error.log'a gider
+        new winston.transports.File({ 
+            filename: 'logs/error.log', 
+            level: 'error' 
+        }),
+
+        // Tüm loglar combined.log'a gider
+        new winston.transports.File({ 
+            filename: 'logs/combined.log' 
+        }),
+
+        // Console çıktısı renkli ve sade formatta
         new winston.transports.Console({
             format: winston.format.combine(
                 winston.format.colorize(),
@@ -18,4 +28,4 @@ const logger = winston.createLogger({
     ]
 });
 
-module.exports = logger; 
+module.exports = logger;//ok
