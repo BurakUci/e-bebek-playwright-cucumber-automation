@@ -1,0 +1,26 @@
+{"level":"info","message":"Navigating to login page","timestamp":"2025-07-23T11:48:20.851Z"}
+{"level":"info","message":"Page loaded with state: networkidle","timestamp":"2025-07-23T11:48:26.523Z"}
+{"level":"info","message":"Successfully navigated to login page","timestamp":"2025-07-23T11:48:26.524Z"}
+{"level":"info","message":"Starting login process","timestamp":"2025-07-23T11:48:26.527Z"}
+{"level":"info","message":"Navigating to login page","timestamp":"2025-07-23T11:48:26.528Z"}
+{"level":"info","message":"Page loaded with state: networkidle","timestamp":"2025-07-23T11:48:28.240Z"}
+{"level":"info","message":"Successfully navigated to login page","timestamp":"2025-07-23T11:48:28.242Z"}
+{"level":"info","message":"Clicking email login option","timestamp":"2025-07-23T11:48:28.242Z"}
+{"level":"info","message":"Element found: #btnLoginWithEmail","timestamp":"2025-07-23T11:48:29.316Z"}
+{"level":"info","message":"Clicked element: #btnLoginWithEmail","timestamp":"2025-07-23T11:48:29.418Z"}
+{"level":"info","message":"Entering email","timestamp":"2025-07-23T11:48:29.419Z"}
+{"level":"info","message":"Element found: #txtEmail","timestamp":"2025-07-23T11:48:29.435Z"}
+{"level":"info","message":"Typed text into element: #txtEmail","timestamp":"2025-07-23T11:48:29.459Z"}
+{"level":"info","message":"Clicking initial login button","timestamp":"2025-07-23T11:48:29.459Z"}
+{"level":"info","message":"Element found: button[aria-labelledby=\"login or register\"]","timestamp":"2025-07-23T11:48:29.480Z"}
+{"level":"info","message":"Clicked element: button[aria-labelledby=\"login or register\"]","timestamp":"2025-07-23T11:48:29.640Z"}
+{"level":"info","message":"Waiting for welcome message","timestamp":"2025-07-23T11:48:29.640Z"}
+{"level":"info","message":"Element found: h1.title-primary","timestamp":"2025-07-23T11:48:29.652Z"}
+{"level":"info","message":"Entering password","timestamp":"2025-07-23T11:48:29.652Z"}
+{"level":"info","message":"Element found: #txtPassword","timestamp":"2025-07-23T11:48:29.869Z"}
+{"level":"info","message":"Typed text into element: #txtPassword","timestamp":"2025-07-23T11:48:29.886Z"}
+{"level":"info","message":"Clicking submit button","timestamp":"2025-07-23T11:48:29.887Z"}
+{"level":"info","message":"Element found: #btnSubmitPassword","timestamp":"2025-07-23T11:48:29.904Z"}
+{"level":"info","message":"Clicked element: #btnSubmitPassword","timestamp":"2025-07-23T11:48:29.994Z"}
+{"level":"info","message":"Login process completed successfully","timestamp":"2025-07-23T11:48:29.995Z"}
+{"error":"page.screenshot: Target page, context or browser has been closed","level":"error","message":"Failed to take screenshot: error_h2_title","timestamp":"2025-07-23T11:48:40.090Z"}
