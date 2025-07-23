@@ -20,8 +20,8 @@ module.exports = {
         require: ['step_definitions/*.js'],
         format: [
             'progress-bar',
-            ['allure-cucumberjs', './allure-results']
+            ['allure-cucumberjs', './allure-results']//ok
         ],
         publishQuiet: true
     }
-}; 
+};  

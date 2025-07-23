@@ -95,4 +95,4 @@ class BasePage {
     }
 }
 
-module.exports = BasePage; 
+module.exports = BasePage; //ok

@@ -10,16 +10,16 @@ class AccountPage extends BasePage {
     }
 
     async openAccountMenu() {
-        await this.page.getByText('Hesabım Siparişlerim Cüzdanım').click();
+        await this.page.locator(this.accountMenu).click();
     }
 
     async logout() {
         await this.openAccountMenu();
-        await this.page.getByRole('link', { name: 'Çıkış Yap' }).click();
+        await this.page.locator(this.logoutLink).click();
     }
 
     async verifyLogout() {
-        await this.page.waitForSelector('a[role="link"]:has-text("Giriş Yap / Hesap Oluştur")');
+        await this.page.waitForSelector(this.loginLink);
     }
 
     async verifyProfilePage() {
@@ -29,4 +29,4 @@ class AccountPage extends BasePage {
     }
 }
 
-module.exports = AccountPage; 
+module.exports = AccountPage;//ok

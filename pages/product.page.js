@@ -25,4 +25,4 @@ class ProductPage extends BasePage {
     }
 }
 
-module.exports = ProductPage; 
+module.exports = ProductPage;  

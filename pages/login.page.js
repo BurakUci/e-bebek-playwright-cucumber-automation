@@ -29,32 +29,26 @@ class LoginPage extends BasePage {
         try {
             logger.info('Starting login process');
             await this.navigateToLoginPage();
-            
-            // Click on email login option
+
             logger.info('Clicking email login option');
             await this.page.waitForTimeout(1000);
             await this.click(this.loginTabButton);
-            
-            // Enter email
+
             logger.info('Entering email');
             await this.type(this.emailInput, email);
-            
-            // Click the initial login button
+
             logger.info('Clicking initial login button');
             await this.click(this.initialLoginButton);
 
-            // Wait for welcome message
             logger.info('Waiting for welcome message');
             await this.waitForElement(this.welcomeHeader);
-            
-            // Enter password
+
             logger.info('Entering password');
             await this.type(this.passwordInput, password);
-            
-            // Click submit button
+
             logger.info('Clicking submit button');
             await this.click(this.submitButton);
-            
+
             logger.info('Login process completed successfully');
         } catch (error) {
             logger.error('Login process failed', { error: error.message });
@@ -77,4 +71,4 @@ class LoginPage extends BasePage {
     }
 }
 
-module.exports = LoginPage; 
+module.exports = LoginPage;//ok

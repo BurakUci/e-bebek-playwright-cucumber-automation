@@ -9,9 +9,9 @@ class SearchPage extends BasePage {
     }
 
     async searchProduct(productName) {
-        await this.page.getByRole('textbox', { name: 'Ara' }).click();
-        await this.page.getByRole('textbox', { name: 'Ara' }).fill(productName);
-        await this.page.getByRole('textbox', { name: 'Ara' }).press('Enter');
+        await this.page.locator(this.searchInput).click();
+        await this.page.locator(this.searchInput).fill(productName);
+        await this.page.locator(this.searchInput).press('Enter');
         await this.page.waitForLoadState('networkidle');
     }
 
@@ -28,4 +28,4 @@ class SearchPage extends BasePage {
     }
 }
 
-module.exports = SearchPage; 
+module.exports = SearchPage;//ok
